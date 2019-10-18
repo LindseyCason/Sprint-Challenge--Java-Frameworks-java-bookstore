@@ -1,0 +1,27 @@
+WORKING // GET localhost:2024/books/books // RETURNS ALL BOOKS
+WORKING // GET localhost:2024/author/authors // RETURNS ALL AUTHORS
+WORKING // DELETE localhost:2024/books/data/books/{ID} // DELETES BOOK BY ID
+WORKING // PUT localhost:2024/books/data/books/{id} // UPDATES COPY, ISBN AND TITLE
+            {
+              "copy": 1925,
+              "isbn": "143lambda",
+              "title": "Lambda for Lindsey"
+            }
+WORKING // POST localhost:2024/books/data/books/{bookid}/authors/{authorid} // ADDS AUTHOR ALREADY IN SYSTEM TO A BOOK
+
+//////NOT REQUIRED BUT ADDED//////
+WORKING // GET localhost:2024/section/sections //RETURNS ALL SECTIONS
+
+
+WORKING// ADMIN - WORKING, CAN COMPLETE ALL TASKS
+USER- Look Up Books, Authors and Sections, No Put, No Delete, No Post Get All
+
+DATA-people who can update data on books, authors, sections. They can also read books, authors, sections.
+Put on All Get on All, No Delete, No Post
+
+My sections are joined with my books and the books show up in the sections when you GET section/section
+
+
+
+
+To Deploy To Heroku
